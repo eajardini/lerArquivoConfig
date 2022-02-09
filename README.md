@@ -27,11 +27,24 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/eajardiniLerArquivoConfig.git
+git remote add origin https://github.com/eajardini/LerArquivoConfig.git
 git push -u origin main
 
 0º Passo
 Criar um repositório no Git sem nenhum arquivo de Readme
+
+## Compilar o projeto
+
+npm run build
+
+## Vetur funcinar
+Criar um arquivo de nome jsconfig.json no mesmo níveldo que package.json e colocar o seguinte:
+{
+    "include": [
+        "./src/**/*"
+    ]
+}
+
 
 
 
